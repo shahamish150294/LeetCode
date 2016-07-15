@@ -20,7 +20,7 @@ class TreeNode(object):
         nodes = []
         inorder(root, nodes)
         return nodes
-    
+
 def inorder(root, nodes):
     """
     Method recurses to explore nodes in pre-order
